@@ -29,7 +29,7 @@ public class Triangle {
     FloatBuffer mVertexBuffer; //顶点坐标数据缓冲
     FloatBuffer mColorBuffer; //顶点颜色数据缓冲
     int vCount = 0;
-    float xAngle = 0; //绕x轴旋转的角度
+    public float xAngle = 0; //绕x轴旋转的角度
 
     public Triangle(GLSurfaceView glSurfaceView){
         initVertexData();
